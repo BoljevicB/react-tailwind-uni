@@ -1,0 +1,249 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container_top {
+    min-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: none;
+    border-left: none;
+    border-radius: 1px;
+    /* box-shadow: 0 0px 0px 3px rgba(0,0,0,0.2); */
+    /* background-color: #A5A5A5; */
+    /* box-shadow: 0 10px 10px  rgb(0, 0, 0); */
+    /* background-image: linear-gradient(to bottom,  #B7C0C9,#bfc4c9, white); */
+  }
+
+  main .container_top .right_photo img {
+    /* width: 350px;
+    height: 450px; */
+    /* rotate:calc(10deg); */
+    padding: 10px;
+    border-radius: 22px;
+  }
+
+
+  .left_text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+ 
+  h4 {
+    color: black;
+    font-size: 16px;
+  }
+
+  h2 {
+    color: #1A5DAD;
+    font-size: 35px;
+    font-weight: 1000;
+    font-style: italic;
+  }
+
+  p {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+  }
+
+  #b_now {
+    width: 150px;
+    height: 60px;
+    background-color: #1A5DAD;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    color: white;
+    font-weight: 800;
+    transition: 0.2s ease-in;
+  }
+
+  #b_now:hover {
+    box-shadow: none;
+    background-color: #4DA4D5;
+    border: #A5A5A5 2px solid;
+  }
+
+  .container_bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin-top: 50px;
+  }
+  
+  .table_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    gap: 50px;
+  }
+
+  .prod_table{
+    font-size: 35px;
+    font-weight: 1000;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .table1,
+  .table2,
+  .table3,
+  .table4,
+  .table5,
+  .table6,
+  .table7,
+  .table8,
+  .table9 {
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0,5 ease-out;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 25px 0 25px 0;
+    box-shadow: 0 10px 10px rgb(154, 152, 152);
+    flex-basis: 30%;
+  }
+
+  .table1 {
+    /* background-color: #FFE3F1; */
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .table1:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+
+  .table2 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .table2:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+
+  .table3 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+  
+  .table3:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+
+  .table4 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .table4:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+  
+  .table5 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .table5:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+  
+  .table6 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .table6:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+  
+  .table7 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .table7:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+  
+  .table8 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .table8:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+  
+  .table9 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .table9:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+
+  .table_name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .table_descr {
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .table_price {
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  #b_add {
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    color: #FFFF;
+    border: none;
+    box-shadow:0 3px 3px rgb(82, 79, 79) ;
+    border-radius: 12px;
+    background-color: #1A5DAD;
+    transition: 0.5s ease-in-out;
+  }
+
+  #b_add:hover {
+    box-shadow: none;
+    background-color: #4DA4D5;
+    border: #A5A5A5 2px solid;
+  }

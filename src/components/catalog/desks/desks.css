@@ -1,0 +1,214 @@
+ .left_text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+ 
+  h4 {
+    color: black;
+    font-size: 16px;
+  }
+
+  h2 {
+    color: #1A5DAD;
+    font-size: 35px;
+    font-weight: 1000;
+    font-style: italic;
+  }
+
+  p {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+  }
+
+  #b_now {
+    width: 150px;
+    height: 60px;
+    background-color: #1A5DAD;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    color: white;
+    font-weight: 800;
+    transition: 0.2s ease-in;
+  }
+
+  #b_now:hover {
+    box-shadow: none;
+    background-color: #4DA4D5;
+    border: #A5A5A5 2px solid;
+  }
+
+  .container_bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin-top: 50px;
+  }
+  
+  .desk_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    gap: 50px;
+  }
+
+  .prod_desk{
+    font-size: 35px;
+    font-weight: 1000;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .desk1,
+  .desk2,
+  .desk3,
+  .desk4,
+  .desk5,
+  .desk6,
+  .desk7,
+  .desk8,
+  .desk9 {
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0,5 ease-out;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 25px 0 25px 0;
+    box-shadow: 0 10px 10px rgb(154, 152, 152);
+    flex-basis: 30%;
+  }
+
+  .desk1 {
+    /* background-color: #FFE3F1; */
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .desk1:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+
+  .desk2 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .desk2:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+
+  .desk3 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+  
+  .desk3:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+
+  .desk4 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .desk4:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+  
+  .desk5 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .desk5:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+  
+  .desk6 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .desk6:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+  
+  .desk7 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .desk7:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+  
+  .desk8 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .desk8:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+  
+  .desk9 {
+    background-color: #ffff;
+    transition: 0.2s ease-in;
+  }
+
+  .desk9:hover {
+    transform: scale(1.012);
+    cursor: pointer;
+  }
+
+  .desk_name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .desk_descr {
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .desk_price {
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  #b_add {
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    color: #FFFF;
+    border: none;
+    box-shadow:0 3px 3px rgb(82, 79, 79) ;
+    border-radius: 12px;
+    background-color: #1A5DAD;
+    transition: 0.5s ease-in-out;
+  }
+
+  #b_add:hover {
+    box-shadow: none;
+    background-color: #4DA4D5;
+    border: #A5A5A5 2px solid;
+  }
