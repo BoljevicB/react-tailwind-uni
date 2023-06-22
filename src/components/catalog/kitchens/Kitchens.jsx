@@ -88,7 +88,7 @@ function Kitchens (){
             <div className="prod_kitchen">PRODUCTS</div>
                 <div className="kitchen_cards">
                     <div className="kitchen1">
-                        <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen1.png" /></div>
+                        <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen1.png" alt="Kitchen" /></div>
                         <div className="kitchen_name">kitchen (VHV 321)</div>
                         <div className="kitchen_descr">Lorem ipsum dolor sit amet.</div>
                         <div className="kitchen_price">78$</div>
@@ -96,7 +96,7 @@ function Kitchens (){
                         </div>
                         
                         <div className="kitchen2">
-                            <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen2.png" /></div>
+                            <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen2.png" alt="Kitchen" /></div>
                             <div className="kitchen_name">kitchen (VHV 321)</div>
                             <div className="kitchen_descr">Lorem ipsum dolor sit amet.</div>
                             <div className="kitchen_price">59$</div>
@@ -104,7 +104,7 @@ function Kitchens (){
                         </div>
                            
                             <div className="kitchen3">
-                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen3.png" /></div>
+                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen3.png" alt="Kitchen" /></div>
                                 <div className="kitchen_name">kitchen (VHV 321)</div>
                                 <div className="kitchen_descr">Lorem ipsum dolor sit amet.</div>
                                 <div className="kitchen_price">91$</div>
@@ -112,7 +112,7 @@ function Kitchens (){
                             </div>
 
                             <div className="kitchen4">
-                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen4.png" /></div>
+                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen4.png" alt="Kitchen" /></div>
                                 <div className="kitchen_name">kitchen (VHV 321)</div>
                                 <div className="kitchen_descr">Lorem ipsum dolor sit amet.</div>
                                 <div className="kitchen_price">60$</div>
@@ -120,7 +120,7 @@ function Kitchens (){
                             </div>
 
                             <div className="kitchen5">
-                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen5.png" /></div>
+                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen5.png" alt="Kitchen" /></div>
                                 <div className="kitchen_name">kitchen (VHV 321)</div>
                                 <div className="kitchen_descr">Lorem ipsum dolor sit amet.</div>
                                 <div className="kitchen_price">78$</div>
@@ -128,7 +128,7 @@ function Kitchens (){
                             </div>
 
                             <div className="kitchen6">
-                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen6.png" /></div>
+                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen6.png" alt="Kitchen" /></div>
                                 <div className="kitchen_name">Nice kitchen (VHV 321)</div>
                                 <div className="kitchen_descr">Lorem ipsum dolor sit amet.</div>
                                 <div className="kitchen_price">199$</div>
@@ -136,7 +136,7 @@ function Kitchens (){
                             </div>
 
                             <div className="kitchen7">
-                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen7.png" /></div>
+                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen7.png" alt="Kitchen" /></div>
                                 <div className="kitchen_name">kitchen (VHV 321)</div>
                                 <div className="kitchen_descr">Lorem ipsum dolor sit amet.</div>
                                 <div className="kitchen_price">53$</div>
@@ -144,7 +144,7 @@ function Kitchens (){
                             </div>
 
                             <div className="kitchen8">
-                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen8.png" /></div>
+                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen8.png" alt="Kitchen" /></div>
                                 <div className="kitchen_name">kitchen (VHV 321)</div>
                                 <div className="kitchen_descr">Lorem ipsum dolor sit amet.</div>
                                 <div className="kitchen_price">82$</div>
@@ -152,7 +152,7 @@ function Kitchens (){
                             </div>
 
                             <div className="kitchen9">
-                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen9.png" /></div>
+                                <div className="kitchen_img"><img className='h-72 w-72' src="/imgspub/kitchen9.png" alt="Kitchen" /></div>
                                 <div className="kitchen_name">kitchen (VHV 321)</div>
                                 <div className="kitchen_descr">Lorem ipsum dolor sit amet.</div>
                                 <div className="kitchen_price">23$</div>

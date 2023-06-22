@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {SlMenu, SlArrowLeft} from 'react-icons/sl';
-import {Routes, Route, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 
 const Navbar = () => {
