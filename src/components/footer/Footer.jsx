@@ -14,7 +14,7 @@ const Footer = () => {
 				<span className="self-center text-2xl font-semibold">FURNTURE</span>
 			</p>
 		</div>
-		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4 border-t pt-4">
+		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4 border-t pt-4 justify-items-center">
 			<div className="space-y-3">
 				<h3 className="tracki uppercase dark:text-gray-50 font-semibold">Product</h3>
 				<ul className="space-y-1">
